@@ -1,0 +1,34 @@
+{
+  "tabs": {
+    "home": "होम",
+    "bookings": "बुकिंग",
+    "spiritual": "आध्यात्मिक",
+    "profile": "प्रोफ़ाइल"
+  },
+  "home": {
+    "greeting_morning": "शुभ प्रभात",
+    "greeting_afternoon": "शुभ दोपहर",
+    "greeting_evening": "शुभ संध्या",
+    "devotee": "भक्त",
+    "quick_actions": {
+      "darshan": "दर्शन",
+      "tickets": "टिकट",
+      "prasadam": "प्रसादम",
+      "pooja": "पूजा",
+      "donate": "दान"
+    },
+    "upcoming_festivals": "आगामी त्यौहार",
+    "wait_time": "प्रतीक्षा का समय: 45m"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "language": "भाषा",
+    "language_desc": "एप्लिकेशन की भाषा बदलें",
+    "theme": "थीम",
+    "theme_desc": "डार्क मोड टॉगल करें",
+    "notifications": "सूचनाएं",
+    "notifications_desc": "अलर्ट प्रबंधित करें",
+    "offline": "ऑफ़लाइन मोड अनुकरण करें",
+    "logout": "लॉग आउट"
+  }
+}

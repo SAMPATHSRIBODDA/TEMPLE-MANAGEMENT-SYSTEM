@@ -1,0 +1,34 @@
+{
+  "tabs": {
+    "home": "హోమ్",
+    "bookings": "బుకింగ్స్",
+    "spiritual": "ఆధ్యాత్మికం",
+    "profile": "ప్రొఫైల్"
+  },
+  "home": {
+    "greeting_morning": "శుభోదయం",
+    "greeting_afternoon": "శుభ మధ్యాహ్నం",
+    "greeting_evening": "శుభ సాయంత్రం",
+    "devotee": "భక్తుడా",
+    "quick_actions": {
+      "darshan": "దర్శనం",
+      "tickets": "టికెట్లు",
+      "prasadam": "ప్రసాదం",
+      "pooja": "పూజ",
+      "donate": "విరాళం"
+    },
+    "upcoming_festivals": "రాబోయే పండుగలు",
+    "wait_time": "నిరీక్షణ సమయం: 45m"
+  },
+  "settings": {
+    "title": "సెట్టింగులు",
+    "language": "భాష",
+    "language_desc": "అనువర్తన భాషను మార్చండి",
+    "theme": "థీమ్",
+    "theme_desc": "చీకటి మోడ్ టోగుల్ చేయండి",
+    "notifications": "నోటిఫికేషన్లు",
+    "notifications_desc": "హెచ్చరికలను నిర్వహించండి",
+    "offline": "ఆఫ్‌లైన్ మోడ్‌ని అనుకరించండి",
+    "logout": "లాగ్ అవుట్"
+  }
+}

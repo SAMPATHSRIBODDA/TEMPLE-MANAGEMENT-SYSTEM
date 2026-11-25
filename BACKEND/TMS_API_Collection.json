@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "b3e9d8f3-8b7c-4d32-9c1e-b8d4f9f9e9e9",
+		"name": "Temple Management System (TMS) API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1. Admin Dashboard",
+			"item": [
+				{
+					"name": "Get Today's Stats",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/dashboard/stats",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "v1", "dashboard", "stats"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "2. Counter Operations",
+			"item": [
+				{
+					"name": "Offline Data Sync",
+					"request": {
+						"method": "POST",
+						"header": [
+							{ "key": "Content-Type", "value": "application/json" }
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"tickets\": [],\n  \"receipts\": []\n}"
+						},
+						"url": {
+							"raw": "{{baseUrl}}/api/v1/sync",
+							"host": ["{{baseUrl}}"],
+							"path": ["api", "v1", "sync"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:5000",
+			"type": "string"
+		}
+	]
+}

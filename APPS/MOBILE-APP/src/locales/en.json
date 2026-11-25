@@ -1,0 +1,34 @@
+{
+  "tabs": {
+    "home": "Home",
+    "bookings": "Bookings",
+    "spiritual": "Spiritual",
+    "profile": "Profile"
+  },
+  "home": {
+    "greeting_morning": "Good Morning",
+    "greeting_afternoon": "Good Afternoon",
+    "greeting_evening": "Good Evening",
+    "devotee": "Devotee",
+    "quick_actions": {
+      "darshan": "Darshan",
+      "tickets": "Tickets",
+      "prasadam": "Prasadam",
+      "pooja": "Pooja",
+      "donate": "Donate"
+    },
+    "upcoming_festivals": "Upcoming Festivals",
+    "wait_time": "Wait Time: 45m"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "language_desc": "Change application language",
+    "theme": "Theme",
+    "theme_desc": "Toggle dark mode",
+    "notifications": "Notifications",
+    "notifications_desc": "Manage alerts",
+    "offline": "Simulate Offline Mode",
+    "logout": "Log Out"
+  }
+}

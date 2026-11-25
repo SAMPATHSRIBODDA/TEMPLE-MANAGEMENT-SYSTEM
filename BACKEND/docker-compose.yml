@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  tms-backend:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+      - MONGO_URI=mongodb://mongodb:27017/tms_production
+      # Ensure other secrets are loaded via .env file or deployment pipeline
+    depends_on:
+      - mongodb
+    restart: unless-stopped
+
+  mongodb:
+    image: mongo:6.0
+    ports:
+      - "27017:27017"
+    volumes:
+      - tms-mongo-data:/data/db
+    restart: unless-stopped
+
+volumes:
+  tms-mongo-data:

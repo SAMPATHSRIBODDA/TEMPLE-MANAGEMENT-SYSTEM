@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #6366F1;
+  --color-primary-dark: #818CF8;
+  --color-secondary: #A855F7;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  
+  /* Light mode colors */
+  --color-background: #F3F4F6;
+  --color-card: rgba(255, 255, 255, 0.7);
+  --color-border: rgba(229, 231, 235, 0.5);
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background);
+  color: #111827;
+  /* Beautiful mesh gradient for light mode */
+  background-image: 
+    radial-gradient(at 40% 20%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(168, 85, 247, 0.15) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, rgba(236, 72, 153, 0.15) 0px, transparent 50%);
+  background-attachment: fixed;
+}
+
+.dark body {
+  background-color: #0F172A;
+  color: #F8FAFC;
+  /* Beautiful mesh gradient for dark mode */
+  background-image: 
+    radial-gradient(at 40% 20%, rgba(99, 102, 241, 0.25) 0px, transparent 50%),
+    radial-gradient(at 80% 0%, rgba(168, 85, 247, 0.25) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, rgba(236, 72, 153, 0.25) 0px, transparent 50%);
+  background-attachment: fixed;
+}
+
+/* Custom Scrollbar - Sleeker & Glassy */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.3); 
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.5); 
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1); 
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2); 
+}
+
+/* Base Form Inputs (Glassmorphic) */
+.input-field {
+  @apply h-12 rounded-2xl border border-gray-200/50 dark:border-gray-700/50 bg-white/50 dark:bg-gray-900/50 backdrop-blur-md px-4 text-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:border-primary/50 dark:focus:border-primary-dark/50 focus:ring-2 focus:ring-primary/20 transition-all w-full;
+}
+
+.input-label {
+  @apply block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2;
+}
+
+/* Glass Card Utility - used by JS transformer */
+.glass-card {
+  @apply bg-white/70 dark:bg-gray-900/70 backdrop-blur-xl border border-white/40 dark:border-gray-700/50 shadow-xl;
+}

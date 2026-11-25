@@ -1,0 +1,395 @@
+Build a modern, premium, professional official website for my SaaS product:
+
+# TempleSphere
+
+Tagline:
+"Smart Digital Solutions for Modern Temples"
+
+This is a Temple Management System (TMS) platform that provides:
+
+* Temple Counter Software
+* Temple Admin Dashboard
+* Devotee Mobile Application
+* Super Admin SaaS Platform
+
+=================================================
+DESIGN REQUIREMENTS
+===================
+
+Website Style:
+
+* Premium SaaS Website
+* Minimal Design
+* Modern and Elegant
+* Professional Corporate Feel
+* Clean White Background
+* Primary Color: Deep Purple (#5B4BDB)
+* Secondary Color: Gold (#D4A017)
+* Accent Color: Soft Indigo (#6366F1)
+
+Design Inspiration:
+
+* Stripe
+* Notion
+* Linear
+* Framer
+* Razorpay
+
+UI Principles:
+
+* Large white spaces
+* Rounded corners
+* Soft shadows
+* Smooth animations
+* Glassmorphism where needed
+* Simple typography
+* Mobile responsive
+* Fast loading
+
+Do NOT create a heavy website.
+
+Architecture should be extremely simple.
+
+=================================================
+TECH STACK
+==========
+
+Frontend:
+
+* React
+* Vite
+* TailwindCSS
+* Framer Motion
+
+Folder Structure:
+
+website/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── layouts/
+│   ├── sections/
+│   ├── pages/
+│   ├── hooks/
+│   ├── constants/
+│   ├── data/
+│   ├── styles/
+│   └── utils/
+├── public/
+└── package.json
+
+=================================================
+WEBSITE PAGES
+=============
+
+1. Home
+2. Features
+3. Solutions
+4. Pricing
+5. About Us
+6. Contact
+7. Book Demo
+8. Blog
+9. Privacy Policy
+10. Terms & Conditions
+11. Refund Policy
+12. Cookie Policy
+13. Support
+14. Careers
+15. FAQs
+
+=================================================
+HEADER
+======
+
+Logo:
+TempleSphere
+
+Navigation:
+
+Home
+Features
+Solutions
+Pricing
+About
+Contact
+
+Buttons:
+
+Book Demo
+Get Started
+
+Sticky Navbar.
+
+=================================================
+HOME PAGE
+=========
+
+Hero Section:
+
+Headline:
+Digitally Transform Your Temple Operations
+
+Subheadline:
+Manage Darshan, Laddu Sales, Donations, Poojas and Devotees with one powerful platform.
+
+Buttons:
+Book Demo
+Watch Video
+
+Right Side:
+Beautiful Software Dashboard Mockup.
+
+Trust Section:
+Trusted by Temples Across India.
+
+=================================================
+FEATURES SECTION
+================
+
+Cards:
+
+Temple Counter Software
+Admin Dashboard
+Mobile App
+QR Ticketing
+Receipt Printing
+Pooja Management
+Laddu Management
+Donation Management
+Inventory Management
+Reports & Analytics
+Subscription Management
+White Label Solution
+
+=================================================
+SOLUTIONS SECTION
+=================
+
+Solutions for:
+
+Small Temples
+Large Temples
+Trust Organizations
+Multi-Temple Management
+
+=================================================
+HOW IT WORKS
+============
+
+1. Setup Temple
+2. Configure Modules
+3. Start Managing
+4. Generate Reports
+
+=================================================
+MODULE SHOWCASE
+===============
+
+Interactive cards:
+
+Entry Tickets
+Darshan Tickets
+Laddu Sales
+Pooja Booking
+Donations
+Inventory
+Reports
+QR Verification
+Mobile Booking
+Analytics
+
+=================================================
+MOBILE APP SHOWCASE
+===================
+
+Show:
+
+Booking Screens
+QR Tickets
+Laddu Orders
+Pooja Booking
+Notifications
+
+Animated Phone Mockup.
+
+=================================================
+SOFTWARE SHOWCASE
+=================
+
+Display:
+
+Counter Dashboard
+Admin Dashboard
+Reports Dashboard
+Receipt Printing Screen
+QR Scanner Screen
+
+=================================================
+PRICING PAGE
+============
+
+Plans:
+
+Starter
+Professional
+Enterprise
+
+Each card contains:
+
+Features
+Modules Included
+Support
+Button:
+Book Demo
+
+=================================================
+TESTIMONIALS
+============
+
+Professional cards.
+
+=================================================
+FAQ SECTION
+===========
+
+Questions:
+
+What is TempleSphere?
+How does pricing work?
+Can we customize modules?
+Do you provide mobile apps?
+Do you provide support?
+
+=================================================
+ABOUT PAGE
+==========
+
+Company Story
+Mission
+Vision
+Core Values
+
+=================================================
+CONTACT PAGE
+============
+
+Contact Form:
+
+Name
+Temple Name
+Email
+Phone
+Message
+
+Contact Details:
+Email
+Phone
+Address
+
+Google Maps Placeholder.
+
+=================================================
+BOOK DEMO PAGE
+==============
+
+Form:
+
+Temple Name
+Contact Person
+Phone
+Email
+Temple Size
+Requirements
+
+Submit Button.
+
+=================================================
+BLOG PAGE
+=========
+
+Cards Layout.
+
+Categories:
+
+Temple Management
+Digital Transformation
+Case Studies
+Announcements
+
+=================================================
+SUPPORT PAGE
+============
+
+Features:
+
+Help Center
+Raise Ticket
+Documentation
+Contact Support
+
+=================================================
+FOOTER
+======
+
+Company
+Features
+Pricing
+Support
+Policies
+Social Media
+
+=================================================
+LEGAL PAGES
+===========
+
+Create pages for:
+
+Privacy Policy
+Terms & Conditions
+Refund Policy
+Cookie Policy
+Disclaimer
+
+Generate realistic professional content.
+
+=================================================
+SEO
+===
+
+Meta Tags
+Open Graph
+Structured Data
+Sitemap
+Robots.txt
+
+=================================================
+ANIMATIONS
+==========
+
+Fade In
+Hover Effects
+Smooth Scrolling
+Card Animations
+
+=================================================
+FINAL REQUIREMENTS
+==================
+
+Build a premium SaaS website that feels:
+
+* Professional
+* Official
+* Modern
+* Trustworthy
+* Minimal
+* High-end
+
+Architecture must remain extremely simple and maintainable.
+
+Generate frontend only with mock data.
+No backend implementation.
+No authentication.
+No database.
+
+Only create a beautiful and professional official website for TempleSphere.
